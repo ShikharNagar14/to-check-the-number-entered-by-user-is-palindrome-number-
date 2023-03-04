@@ -1,0 +1,8 @@
+# code for palindrome number
+num=int(input("Enter a number:\n"))
+num_str=str(num)
+rev_str=num_str[::-1]
+if num_str==rev_str:
+    print("the entered number is palindrome number")
+else:
+    print("The entered number is not palindrome")
